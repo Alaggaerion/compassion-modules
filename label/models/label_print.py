@@ -10,7 +10,7 @@
 ##############################################################################
 
 from odoo import models, fields, api, _
-from odoo.tools import safe_eval
+from odoo.tools.safe_eval import safe_eval
 
 
 class LabelPrint(models.Model):

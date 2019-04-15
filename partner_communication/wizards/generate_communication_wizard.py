@@ -9,7 +9,7 @@
 #
 ##############################################################################
 from odoo import models, api, fields, _
-from odoo.tools import safe_eval
+from odoo.tools.safe_eval import safe_eval
 from odoo.addons.queue_job.job import job
 
 

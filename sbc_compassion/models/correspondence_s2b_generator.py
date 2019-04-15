@@ -14,7 +14,7 @@ import logging
 from io import BytesIO
 
 from odoo import api, fields, models
-from odoo.tools import safe_eval
+from odoo.tools.safe_eval import safe_eval
 from odoo.addons.queue_job.job import job, related_action
 
 _logger = logging.getLogger(__name__)
